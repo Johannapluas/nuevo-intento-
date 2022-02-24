@@ -55,6 +55,12 @@ base, altura = altura, base
 
 ### Suma
 
+´´´python 
+suma = 2+ 4 
+print(suma)
+[output] 4
+´´´
+
 ### Resta
 
 ### Multiplicación
