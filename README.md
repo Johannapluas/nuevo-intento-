@@ -33,9 +33,8 @@ fecha_actual o fechaActual
 20 = x
 
 - la asignación de una variable se debe realizar de  derecha a  izquierda ejemplo: (esta es la manera correcta)
-´´´python
-variable = 20 
-´´´
+x = 20 
+
 
 Una variable es un valor que puede cambiar a lo largo de la ejecución de nuestro algoritmo.
 
