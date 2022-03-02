@@ -35,8 +35,15 @@ fecha_actual o fechaActual
 - la asignación de una variable se debe realizar de  derecha a  izquierda ejemplo: (esta es la manera correcta)
 x = 20 
 
-
 Una variable es un valor que puede cambiar a lo largo de la ejecución de nuestro algoritmo.
+
+'''python 
+print('Hola mundo')
+
+x = 100
+
+print(x)
+'''
 
 ## diferente tipo de asignaciones
 **Asignación en la misma línea:**
@@ -48,6 +55,38 @@ largo = ancho = 5
 **• Asignación de intercambio:**
 base = 30; altura = 40
 base, altura = altura, base
+
+# Asignaciones en la misma línea
+x = 12; y =10; z=4
+
+print('x:', x)
+print(y)
+print(z)
+
+print('x=', x, 'y=', y, 'z=',z)
+
+
+# Asignación múltiple
+dia, mes, anho = "Lunes", "Mayo", 2022
+print(dia, mes, anho)
+
+print('Hoy es', dia)
+print(', el mes actual es', mes)
+print('y el año es', anho)
+
+print('Hoy es', dia, ', el mes actual es', mes, 'y el año es', anho)
+
+# 'Hoy es Martes, el mes actual es Diciembre y el año es 2021'
+
+# Asignación del mismo valor
+var1 = var2 = 10
+
+# Asignación de intercambio
+base = 10; altura = 100
+base, altura = altura, base
+
+print('base: ', base)
+print('altura: ', altura)
 
 ## Operadores básicos
 
@@ -96,3 +135,14 @@ print(type(a)) # <class 'float'>
 ## Break
 
 ## Continue
+# palabra reselvada continue (salte hacia el siglo for)
+# y no se ejecute lo que esta adebajo del continue
+j= 0 
+for i in range (10):
+    j += 2
+    print('i:', i ,'j:',j )
+    if j >= 2 and j<=18:
+     continue
+    print('el valor de j:', j )
+
+
