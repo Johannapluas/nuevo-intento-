@@ -135,8 +135,8 @@ print(type(a)) # <class 'float'>
 ## Break
 
 ## Continue
-# palabra reselvada continue (salte hacia el siglo for)
-# y no se ejecute lo que esta adebajo del continue
+palabra reselvada continue (salte hacia el siglo for)
+y no se ejecute lo que esta adebajo del continue
 j= 0 
 for i in range (10):
     j += 2
