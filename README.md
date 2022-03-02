@@ -92,7 +92,12 @@ print('altura: ', altura)
 
 
 ### Suma
+x=35
+y=66
 
+suma= x+y
+
+print(suma)
 ### Resta
 
 ### Multiplicación
