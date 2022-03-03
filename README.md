@@ -92,25 +92,47 @@ print('altura: ', altura)
 
 
 ### Suma
+Para sumar en Python se utiliza el signo ´´+´´,  ejemplo :
 
-```
-### Suma
-La suma se realiza uniendo el valor de 2 o más numeros (+)
+ejemplo 1 
 ```python
-#Aqui ya se le asigna valor a las variables
- num1=6
- num2=10
+suma= 25+ 3
+print(suma)
+[output] 28 
+```
+
+ejemplo 2 
+```python
+print('suma:', 25 + 30)
+[output] 55
+```
+
+También, se puede sumar con variables:
+ejemplo 1 
+```python
+X =20 ; y =30 
+suma= x+y
+print(suma)
+[output] 50 
+```
+ejemplo 2
+```python
+altu=25; base=30 
+suma= altu + base 
+print(suma)
+[output] 55
+```
+ingreso de valor por consola
+```python
+ num1=int(input("ingrese un numero:"))
+ num2=int(input("ingrese un numero:"))
  sum1=num1+num2
  print(num1,'-',num2,'=',sum1)
- 
- x=35
-y=66
-
-suma= x+y
-
-print(suma)
 
 ```
+
+
+
 
 ### Resta
 
