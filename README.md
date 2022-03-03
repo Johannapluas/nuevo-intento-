@@ -92,12 +92,26 @@ print('altura: ', altura)
 
 
 ### Suma
-x=35
+
+```
+### Suma
+La suma se realiza uniendo el valor de 2 o más numeros (+)
+```python
+#Aqui ya se le asigna valor a las variables
+ num1=6
+ num2=10
+ sum1=num1+num2
+ print(num1,'-',num2,'=',sum1)
+ 
+ x=35
 y=66
 
 suma= x+y
 
 print(suma)
+
+```
+
 ### Resta
 
 ### Multiplicación
