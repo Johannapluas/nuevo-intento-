@@ -57,6 +57,7 @@ base, altura = altura, base
 ```
  ## Entrada, proceso, salia 
  La función print() es sin duda una de las instrucciones más sencillas, nos permite mostrar información por consola como mensajes, números o valores de una variable. para su uso solo le pasamos en los argumentos lo que deseamos mostrar en consola.
+ 
  La función input() permite obtener información del en la terminal desde el teclado, al momento de ejecutarse esta línea en la consola esperara que ingresemos el texto que necesitemos y demos un enter para continuar y guardar el valor capturado en una variable de programa.
  
  Ejemplo de indentificacion Entrada, proceso, salia:
