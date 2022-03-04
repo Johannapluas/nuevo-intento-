@@ -130,7 +130,7 @@ print (div)
 ```
 ### Módulo
 El operador módulo no hace otra cosa que devolver el resto de la división entre los dos operandos.
-e representa con los signos ```%```
+Se representa con los signos ```%```
 ejemplo 1 
 ```python
 m= 7 % 2
