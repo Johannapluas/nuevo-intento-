@@ -186,4 +186,4 @@ for i in range (10):
      continue
     print('el valor de j:', j )
 
-
+cerrar entre ```[]```
