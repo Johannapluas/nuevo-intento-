@@ -203,7 +203,7 @@ Hacer un cast o casting  es la tecnica que  sirve para  convertir un tipo de dat
   Una lista es una estructura de datos en Python que es una secuencia de elementos ordenados mutables o cambiables. Cada elemento o valor que está dentro de una lista se denomina elemento. cada elemento se debe cerrar entre ```[]```
 
 ## Tuple
-  son tipos de  condiciones ademas, son listas inmutable, ya que no se pueden modificar en ellos. las tuplas estan conformado por()  separados por comas. 
+  Son tipos de  condiciones ademas, son listas inmutable, ya que no se pueden modificar en ellos. las tuplas estan conformado por()  separados por comas. 
 
 ## Dictionary
 Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. los diccionarios estan conformado por ```{}```
@@ -227,7 +227,7 @@ La instrucción break le proporciona la oportunidad de cerrar un bucle cuando se
 ```caracteristica:```
  para salir de un programa rápidamente se utiliza break 
  es una palabra reservada 
- termina el siglo 
+ termina el siclo 
 ```python
 j= 0 
 for i in range (10):
