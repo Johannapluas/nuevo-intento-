@@ -26,7 +26,7 @@ fecha_actual o fechaActual
  ```
  ## Asignando valores a una variable
  La creación de variables se realiza a través de la asignación de  un valor a la misma.
-• El operador de asignación en Python es el ´´“=“'´´.
+• El operador de asignación en Python es el  ```“=“' ```.
 
 - la asignación de una variable  no se debe realizar de izquierda a derecha eso nos marcara error ejemplo:
 ```python
