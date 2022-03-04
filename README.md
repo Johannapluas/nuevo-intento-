@@ -37,7 +37,7 @@ x = 20
 ```
 Una variable es un valor que puede cambiar a lo largo de la ejecución de nuestro algoritmo.
 
-## diferente tipo de asignaciones
+## Diferente tipo de asignaciones
 **Asignación en la misma línea:**
 ```python
 x = 20 ; y = 10 ; z = 15
