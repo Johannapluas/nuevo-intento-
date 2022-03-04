@@ -187,25 +187,54 @@ Hacer un cast o casting  es la tecnica que  sirve para  convertir un tipo de dat
 ```
 
 ## List
+  Una lista es una estructura de datos en Python que es una secuencia de elementos ordenados mutables o cambiables. Cada elemento o valor que está dentro de una lista se denomina elemento. cada elemento se debe cerrar entre ```[]```
 
 ## Tuple
+  son tipos de  condiciones ademas, son listas inmutable, ya que no se pueden modificar en ellos. las tuplas estan conformado por()  separados por comas. 
 
 ## Dictionary
-
+Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. los diccionarios estan conformado por ```{}```
+  
 # Tomando decisiones
+  # Tomando decisiones
+-Las palabras clave if,elif,else permieten dirigir el camino por el que va a avanzar el programa dependiendo de una o varias condiciones
+- Luego de los dos puntos(:), dejamos 4 espacios de sangria en la siguiente linea o una tabulación
 
 ## Sentencia if
-
+  es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el valor de algunos datos. Si la condición que sigue a la palabra clave if se evalúa como verdadera, el bloque de código se ejecutará.
+  ```python
+x = input("Ingrese un numero: ")
+```
 ## Ciclo For
+  El bucle for se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
 
 ## Ciclo While
+  El bucle while evalúa una condición y luego ejecuta un bloque de código si la condición es verdadera. El bloque de código se ejecuta repetidamente hasta que la condición llega ser o es falsa.
 
 ## Break
+  
+Lainstrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa.
+```caracteristica:```
+ para salir de un programa rápidamente se utiliza break 
+ es una palabra reservada 
+ termina el siglo 
+```python
+j= 0 
+for i in range (10):
+    j += 2
+    print('i:', i ,'j:',j )
+    if j ==10 :
+        break
+```
 
 ## Continue
-palabra reselvada continue (salte hacia el siglo for)
+La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. 
+```caracteristica:```
+ palabra reselvada continue (salte hacia el siglo for)
 y no se ejecute lo que esta adebajo del continue
-j= 0 
+ 
+```python
+j= 0
 for i in range (10):
     j += 2
     print('i:', i ,'j:',j )
