@@ -4,7 +4,7 @@ Python es un lenguaje de información fácil de leer  y fácil de escribir, es u
 lo utilizamos por que es fácil, elegante, buenas practicas. 
 
 # ¿Qué es una variable?
-una variable es como una caja que contiene información como (nombre, edad, numero de cedula, etc.)
+Una variable es como una caja que contiene información como (nombre, edad, numero de cedula, etc.)
 el identificador de una variable no puede comenzar con un numero , debe estar en minúsculas  la palabra dentro del mismo se separa con guion bajo.  
 
 ## Nombrando una variable
