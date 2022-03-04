@@ -70,7 +70,7 @@ base, altura = altura, base
 
 
 ### Suma
-Para sumar en Python se utiliza el signo ´´+´´,  ejemplo :
+Para sumar en Python se utiliza el signo ```+```,  ejemplo :
 
 ejemplo 1 
 ```python
@@ -88,7 +88,7 @@ print(suma)
 ```
 
 ### Resta
-Para resta en Python se utiliza el signo ´´-´´,  donde se restan 2 numeros ejemplo :
+Para resta en Python se utiliza el signo ```-```,  donde se restan 2 numeros ejemplo :
 ejemplo 1 
 ```python
 resta= 70 -40  
@@ -97,7 +97,7 @@ print(resta )
 ```
 
 ### Multiplicación
-Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos ´´**´´
+Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos ```**```
 
 ejemplo 1 
 ```python
@@ -107,7 +107,7 @@ print (multip)
 ```
 
 ### División
-Python hace división de enteros cuando ambos operandos son enteros.El operador división el resultado que se devuelve es un número real.  se representa con los signos ´´/´´
+Python hace división de enteros cuando ambos operandos son enteros.El operador división el resultado que se devuelve es un número real.  se representa con los signos ```/```
 ejemplo 1 
 ```python
 div = 3 /2  
