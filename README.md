@@ -1,14 +1,13 @@
 # PROYECTO-PROGRAMACION
-## Qué es Python?
+## ¿Qué es Python?
 Python es un lenguaje de información fácil de leer  y fácil de escribir, es un lenguaje multiparadigma se utiliza para desarrollar en diferente tipo de escenario , pero las personas se han enfocado en el desarrollo de: IOT, inteligencia artificial, backend, date science.
 lo utilizamos por que es fácil, elegante, buenas practicas. 
 
-# Qué es una variable?
+# ¿Qué es una variable?
 una variable es como una caja que contiene información como (nombre, edad, numero de cedula, etc.)
 el identificador de una variable no puede comenzar con un numero , debe estar en minúsculas  la palabra dentro del mismo se separa con guion bajo.  
 
 ## Nombrando una variable
-
 
 - Elegir un nombre significativo que tenga relación con el dato que representará.
 
@@ -32,7 +31,6 @@ fecha_actual o fechaActual
 ```python
 20 = x
 ```
-
 - la asignación de una variable se debe realizar de  derecha a  izquierda ejemplo: (esta es la manera correcta)
 ```python
 x = 20 
@@ -57,8 +55,6 @@ largo = ancho = 5
 base = 30; altura = 40
 base, altura = altura, base
 ```
-
-
 ## Operadores básicos
 * suma ```(+)```
 * resta ```(-)```
@@ -67,7 +63,6 @@ base, altura = altura, base
 * division euclidiana (cociente)```(//)```
 * módulo ```(%)```
 * potencia ```(** )```
-
 
 ### Suma
 Para sumar en Python se utiliza el signo ```+```,  ejemplo :
@@ -123,7 +118,6 @@ m= 7 % 2
 print(m)
 [output] 1
 ```
-
 # Tipos de datos en Python
 * Numeros enteros
 * Numeros de punto flotante
@@ -140,7 +134,7 @@ los numeros enteros son aquellos que no contiene decimales, pueden ser positivos
  y = 3000
  z = -400
  ```
-los números de Python están fuertemente relacionados con los números matemáticos, pero están sujetos a las limitaciones de la representación numérica en las computadoras.
+Los números de Python están fuertemente relacionados con los números matemáticos, pero están sujetos a las limitaciones de la representación numérica en las computadoras.
 
 Python distingue entre enteros, números de punto flotante y números complejos:
  ```python
@@ -161,7 +155,7 @@ y= 50.3
 z = -3.6
 
 ```
-la variable Float tambien se puede realizar con notacion cientifica, pero se debe colocar una<<e>> para indicar el valor de la potencia base 
+La variable Float tambien se puede realizar con notacion cientifica, pero se debe colocar una<<e>> para indicar el valor de la potencia base 
 ```python
 x = 40e4
 y= 50e5
@@ -196,15 +190,12 @@ Hacer un cast o casting  es la tecnica que  sirve para  convertir un tipo de dat
 Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. los diccionarios estan conformado por ```{}```
   
 # Tomando decisiones
-  # Tomando decisiones
 -Las palabras clave if,elif,else permieten dirigir el camino por el que va a avanzar el programa dependiendo de una o varias condiciones
 - Luego de los dos puntos(:), dejamos 4 espacios de sangria en la siguiente linea o una tabulación
 
 ## Sentencia if
-  es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el valor de algunos datos. Si la condición que sigue a la palabra clave if se evalúa como verdadera, el bloque de código se ejecutará.
-  ```python
-x = input("Ingrese un numero: ")
-```
+  Es una forma común de controlar el flujo de un programa, lo que te permite ejecutar bloques de código específicos según el valor de algunos datos. Si la condición que sigue a la palabra clave if se evalúa como verdadera, el bloque de código se ejecutará.
+
 ## Ciclo For
   El bucle for se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
 
@@ -213,7 +204,7 @@ x = input("Ingrese un numero: ")
 
 ## Break
   
-Lainstrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa.
+La instrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa.
 ```caracteristica:```
  para salir de un programa rápidamente se utiliza break 
  es una palabra reservada 
@@ -226,7 +217,6 @@ for i in range (10):
     if j ==10 :
         break
 ```
-
 ## Continue
 La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. 
 ```caracteristica:```
