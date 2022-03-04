@@ -110,7 +110,7 @@ print (div)
 [output] 1.5
 ```
 ### Módulo
-el operador módulo no hace otra cosa que devolver el resto de la división entre los dos operandos.
+El operador módulo no hace otra cosa que devolver el resto de la división entre los dos operandos.
 e representa con los signos ```%```
 ejemplo 1 
 ```python
@@ -125,7 +125,7 @@ print(m)
 *  Booleanos (Verdadero y falso)
 
 ## Integer
-los numeros enteros son aquellos que no contiene decimales, pueden ser positivos o negativos ademas del cero.
+Los numeros enteros son aquellos que no contiene decimales, pueden ser positivos o negativos ademas del cero.
  en programacion se lo conoce como int(interger, entero) o tipo long(de largo). la diferencia entre ambos es que long permite almacenar numeros mas grandes, pero ocupa mas espacio  es recomentable utilizarlo cuando sea solamente necesario.
 
  ejemplo:
@@ -220,8 +220,7 @@ for i in range (10):
 ## Continue
 La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. 
 ```caracteristica:```
- palabra reselvada continue (salte hacia el siglo for)
-y no se ejecute lo que esta adebajo del continue
+ Palabra reselvada continue (salte hacia el siglo for) y no se ejecute lo que esta adebajo del continue
  
 ```python
 j= 0
