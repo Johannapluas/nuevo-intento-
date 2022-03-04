@@ -78,13 +78,6 @@ suma= 25+ 3
 print(suma)
 [output] 28 
 ```
-
-ejemplo 2 
-```python
-print('suma:', 25 + 30)
-[output] 55
-```
-
 También, se puede sumar con variables:
 ejemplo 1 
 ```python
@@ -93,49 +86,105 @@ suma= x+y
 print(suma)
 [output] 50 
 ```
-ejemplo 2
-```python
-altu=25; base=30 
-suma= altu + base 
-print(suma)
-[output] 55
-```
-ingreso de valor por consola
-```python
- num1=int(input("ingrese un numero:"))
- num2=int(input("ingrese un numero:"))
- sum1=num1+num2
- print(num1,'-',num2,'=',sum1)
-
-```
-
-
-
 
 ### Resta
+Para resta en Python se utiliza el signo ´´-´´,  donde se restan 2 numeros ejemplo :
+ejemplo 1 
+```python
+resta= 70 -40  
+print(resta )
+[output] 30  
+```
 
 ### Multiplicación
+Operación aritmética que consiste en calcular el resultado (producto) de sumar un mismo número (multiplicando) tantas veces como indica otro número (multiplicador); se representa con los signos ´´**´´
+
+ejemplo 1 
+```python
+multip = 70 *40  
+print (multip)
+[output] 2800 
+```
 
 ### División
-
+Python hace división de enteros cuando ambos operandos son enteros.El operador división el resultado que se devuelve es un número real.  se representa con los signos ´´/´´
+ejemplo 1 
+```python
+div = 3 /2  
+print (div)
+[output] 1.5
+```
 ### Módulo
+el operador módulo no hace otra cosa que devolver el resto de la división entre los dos operandos.
+e representa con los signos ´´%´´
+ejemplo 1 
+```python
+m= 7 % 2
+print(m)
+[output] 1
+```
 
 # Tipos de datos en Python
+* Numeros enteros
+* Numeros de punto flotante
+*  Texto (cadenas de caracteres)
+*  Booleanos (Verdadero y falso)
 
 ## Integer
+los numeros enteros son aquellos que no contiene decimales, pueden ser positivos o negativos ademas del cero.
+ en programacion se lo conoce como int(interger, entero) o tipo long(de largo). la diferencia entre ambos es que long permite almacenar numeros mas grandes, pero ocupa mas espacio  es recomentable utilizarlo cuando sea solamente necesario.
+
+ ejemplo:
+ ```python
+ x = 20 
+ y = 3000
+ z = -400
+ ```
+los números de Python están fuertemente relacionados con los números matemáticos, pero están sujetos a las limitaciones de la representación numérica en las computadoras.
+
+Python distingue entre enteros, números de punto flotante y números complejos:
+ ```python
+ long= Números = Número entero en caso de overflow= 42L ó 456966786151987643L
+
+int = Números = Número entero con precisión fija= 42
+ ```
 
 ## Float
+Los números reales son los que tienen decimales. En Python se expresan mediante el tipo float.
+Un float en python es un tipo de variable que permite guardar numeros reales, a diferencia de un "int" (un int es tipo de variable que guarda números entero) este puede contener decimales, ejemplo de floats: 3.1415.
+
+ejemplo:
+```python
+float =Números=	Coma flotante de doble precisión =	3.1415927
+x = 40.5
+y= 50.3
+z = -3.6
+
+```
+la variable Float tambien se puede realizar con notacion cientifica, pero se debe colocar una<<e>> para indicar el valor de la potencia base 
+```python
+x = 40e4
+y= 50e5
+z = -35e7
+
+real = 0.56e-3
+print (real, type(real))
+[output] 0.00056
+ ```                        
 
 ## String
-
+Las cadenas en python están entre comillas simples o comillas dobles.
+```python
+'hola' es lo mismo que "hola" .
+```
 ## Casting en Python
-
-a = 1   # <class 'int'>
-b = 2.3 # <class 'float'>
-
-a = a + b
-print(a)       # 3.3
-print(type(a)) # <class 'float'>
+  
+Hacer un cast o casting  es la tecnica que  sirve para  convertir un tipo de dato a otro. 
+```python
+   int a str: str(45)
+   str a int: int ("123")
+   float a int: int (3.5)
+```
 
 ## List
 
@@ -164,4 +213,4 @@ for i in range (10):
      continue
     print('el valor de j:', j )
 
-cerrar entre ```[]```
+
