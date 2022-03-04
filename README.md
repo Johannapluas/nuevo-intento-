@@ -17,7 +17,7 @@ fecha_actual o fechaActual
 ```
 -  El nombre de la variable se debe iniciar con una letra minúscula
 
-- debe tener un máximo de 15 caracteres. 
+- Debe tener un máximo de 15 caracteres. 
 ```python
 **forma incorrecta:**    1numero , Dia -1, Nombre. 
                     
